@@ -46,3 +46,12 @@ img {
         font-size: 2.5rem;
     }
 }
+
+
+.mini-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 700px; */
+    margin: 6rem 0;
+}
