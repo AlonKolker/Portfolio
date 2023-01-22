@@ -15,6 +15,7 @@ const Footer = () => {
       className='footer'
     >
       <div className="copyright">
+      <div>Alon Kolker Portfolio</div>
         <p>Copyright&copy;2022 All rights reserved.Made by <span>Ye Lin Ko</span></p>
       </div>
       {/* <div className="followMe">

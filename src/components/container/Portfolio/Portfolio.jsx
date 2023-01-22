@@ -68,6 +68,10 @@ const Portfolio = () => {
               <img src={work.img} alt="workImg" />
               <h2 className='work-header'>{work.name}</h2>
               <h5 className='work-desc'>{work.description}</h5>
+              <div className='links-icons'>
+              <a href={work.site}  className="icon"> <FiEye /></a>
+              <a href={work.gitHub} className="icon"><FiGithub /></a>
+              </div>
               <motion.div
                 initial={{opacity: 0}}
                 whileHover={{ opacity: [0, 1] }}
