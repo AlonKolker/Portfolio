@@ -46,6 +46,7 @@
     margin-right: auto;
     position: relative;
     object-fit: fill;
+    margin-bottom: 30px;
 
     @media screen and(max-width:600px) {
       max-width: 350px;
@@ -88,7 +89,7 @@
 }
 
 .talk {
-  margin-top: 10rem;
+  margin-top: 3rem;
   background: #fff;
   display: flex;
   justify-content: space-between;
