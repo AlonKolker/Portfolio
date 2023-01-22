@@ -6,17 +6,18 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { BsMedium } from "react-icons/bs";
 import portfolio from "./assets/portfolio.jpg"
 // import work1 from "./assets/work1.png";
-import work11 from "./assets/work11.png";
+import work11 from "./assets/work111.jpg";
 import work22 from "./assets/work22.png";
 import work33 from "./assets/work33.png";
 import work44 from "./assets/work44.png";
+import work55 from "./assets/work55.png";
 import work2 from "./assets/work2.png";
 import work3 from "./assets/work3.png";
 import work4 from "./assets/work4.png";
 import work5 from "./assets/work5.png";
 import work6 from "./assets/work6.png";
 
-export const navLinks = ["home", "about", "skills", "projects", "contact"]
+export const navLinks = ["home", "about", "skills", "portfolio", "contact"]
 
 export const socialIcons = [
   {icon:<FaLinkedin />,link:"https://www.linkedin.com/in/alon-kolker/"},
@@ -122,7 +123,7 @@ export const workImages = [
     img: work33,
     name: "OMNIFOOD",
     category: "web",
-    description:"Just HTML and CSS.",
+    description:"Landing Page - Just HTML and CSS.",
     gitHub:"https://github.com/AlonKolker/OMNIFOOD",
     site:"https://alonkolker.github.io/OMNIFOOD/",
 
@@ -135,6 +136,16 @@ export const workImages = [
     description:"React, Redux, React Router external API and local storage",
     gitHub:"https://github.com/AlonKolker/Mister-Bitcoin-React-Hooks-Redux",
     site:"https://alonkolker.github.io/Mister-Bitcoin-React-Hooks-Redux/#/signup",
+
+  },
+  {
+    id: 5,
+    img: work55,
+    name: "wearIt",
+    category: "web",
+    description:"Responsive clothes Store using Vue 3, Vuex Scss and elementPlus.",
+    gitHub:"https://github.com/AlonKolker/wearIt",
+    site:"https://alonkolker.github.io/wearIt/#/",
 
   },
   // {

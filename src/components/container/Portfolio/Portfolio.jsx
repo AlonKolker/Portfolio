@@ -29,7 +29,7 @@ const Portfolio = () => {
   }
 
   return (
-    <div className="container" id="portfolio">
+    <div className="container" id="projects">
       <motion.div
         initial={{opacity: 0}}
         whileInView={{y: [-50, 0], opacity: 1}}
@@ -66,7 +66,8 @@ const Portfolio = () => {
              key={work.id}
             >
               <img src={work.img} alt="workImg" />
-              <span className='work-desc'>{work.description}</span>
+              <h2 className='work-header'>{work.name}</h2>
+              <h5 className='work-desc'>{work.description}</h5>
               <motion.div
                 initial={{opacity: 0}}
                 whileHover={{ opacity: [0, 1] }}
