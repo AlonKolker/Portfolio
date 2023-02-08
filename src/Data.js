@@ -11,7 +11,7 @@ import work22 from "./assets/work22.png";
 import work33 from "./assets/work33.png";
 import work44 from "./assets/work44.png";
 import work55 from "./assets/work55.png";
-import work66 from "./assets/empo.png";
+import work66 from "./assets/empo2.png";
 import work2 from "./assets/work2.png";
 import work3 from "./assets/work3.png";
 import work4 from "./assets/work4.png";
