@@ -11,6 +11,7 @@ import work22 from "./assets/work22.png";
 import work33 from "./assets/work33.png";
 import work44 from "./assets/work44.png";
 import work55 from "./assets/work55.png";
+import work66 from "./assets/empo.png";
 import work2 from "./assets/work2.png";
 import work3 from "./assets/work3.png";
 import work4 from "./assets/work4.png";
@@ -146,6 +147,16 @@ export const workImages = [
     description:"Responsive clothes Store using Vue 3, Vuex Scss and elementPlus.",
     gitHub:"https://github.com/AlonKolker/wearIt",
     site:"https://alonkolker.github.io/wearIt/#/",
+
+  },
+  {
+    id: 6,
+    img: work66,
+    name: "Empo",
+    category: "web",
+    description:"ETE Responsive Employee managment app using Vue 3, Vuex, Scss, Boostrap, elementPlus, node.js, express, mongoDB and Atlas.",
+    gitHub:"https://github.com/AlonKolker/Empo",
+    site:"https://empo.onrender.com/",
 
   },
   // {
